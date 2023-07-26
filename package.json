@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "doctor": "clinic doctor -- node ./node_modules/electron/cli.js ./main.js"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +18,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
+    "clinic": "^13.0.0",
     "electron": "^25.3.1"
   }
 }
