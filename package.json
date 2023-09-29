@@ -19,6 +19,6 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "clinic": "^13.0.0",
-    "electron": "^25.3.1"
+    "electron": "^26.2.4"
   }
 }
